@@ -11,4 +11,5 @@
 
 class Partner < ActiveRecord::Base
   attr_accessible :abbr_name, :name
+  has_many :users
 end
